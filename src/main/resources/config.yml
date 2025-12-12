@@ -1,0 +1,25 @@
+# Vanish Plugin Configuration By Herex_777
+
+# Worlds where vanish works (use * for all worlds)
+enabled-worlds:
+  - "*"
+  - "world"
+
+database:
+  type: "sqlite"
+  sqlite:
+    path: "plugins/VanishPlugin/vanish.db"
+
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "vanishdb"
+    username: "root"
+    password: ""
+messages:
+  vanish-on: "&aYou vanished!"
+  vanish-off: "&aYou reappeared!"
+  no-permission: "&cYou don't have permission!"
+  not-vanished: "&cYou are not vanished!"
+  vanish-restored: "&aYour vanish has been restored!"
+  action-bar: "&fYou are currently &cVANISHED"

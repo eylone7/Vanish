@@ -1,0 +1,27 @@
+name: VanishPlugin
+version: 1.0.0
+main: me.herex.vanish.VanishPlugin
+api-version: 1.16
+author: Herex
+description: Vanish plugin with database support
+
+commands:
+  vanish:
+    description: Toggle vanish mode
+    usage: /<command>
+    aliases: [v]
+    permission: vanish.use
+
+  unvanish:
+    description: Remove vanish mode
+    usage: /<command>
+    aliases: [uv]
+
+permissions:
+  vanish.use:
+    description: Allows players to use vanish
+    default: op
+
+  vanish.view:
+    description: Allows players to see vanished players
+    default: op
