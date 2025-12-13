@@ -1,0 +1,19 @@
+name: VanishPlugin
+version: 1.0
+main: com.example.vanishplugin.VanishPlugin
+api-version: "1.8"
+description: Advanced Vanish Plugin with Database
+author: Herex_777
+
+commands:
+  vanish:
+    description: Toggle vanish mode
+    usage: /vanish
+
+permissions:
+  vanish.use:
+    description: Allows players to use the vanish command
+    default: op
+  vanish.bypass:
+    description: Allows players to see vanished players
+    default: op
