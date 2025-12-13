@@ -1,9 +1,9 @@
 name: VanishPlugin
-version: 1.0.0
+version: 1.2
 main: me.herex.vanish.VanishPlugin
 api-version: 1.16
 author: Herex
-description: Vanish plugin with database support
+description: Vanish plugin with database support [Hypixel Vanish Remake System]
 
 commands:
   vanish:
@@ -24,4 +24,5 @@ permissions:
 
   vanish.view:
     description: Allows players to see vanished players
+
     default: op
