@@ -1,3 +1,4 @@
 # Vanish
-Hypixel Vanish Remake System Made By Herex_777
-## Discord
+Hypixel Vanish System Remake.
+
+MC Version: 1.8.8
