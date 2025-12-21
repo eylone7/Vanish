@@ -17,5 +17,5 @@ This plugin is a Remake of Hypixel Vanish System.
 ## Pictures:
 ![LOG](https://i.imgur.com/ETjCtu6.png)
 
-# Availble Commands:
+## Availble Commands:
 ***/vanish***
